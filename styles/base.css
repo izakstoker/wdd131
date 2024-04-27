@@ -1,0 +1,115 @@
+    body {
+        padding: 2rem 6rem 2rem 6rem;
+        background-color: rgb(253, 241, 241);
+        font: 'Times New Roman';
+    }
+
+    header {
+        display: grid;
+        background-color: #818f8e;
+        text-align: center;
+    }
+    
+    .headertitle {
+        background-color: #1b2625;
+        color: white;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+      
+    nav a:link {
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav a:visited {
+        text-decoration: none;
+        color: #64afec;
+    }
+    
+    nav a:hover {
+        text-decoration: none;
+        color: #1022e9;
+        cursor: grab;
+        font-style: bold;
+    }
+    
+    main {
+        background-color: rgb(222, 222, 222);
+        font: 'Times New Roman';
+        justify-self: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+    .p1 {
+        text-align: right;
+    }
+
+    .card {
+        display: grid;
+        grid-template-rows: 60px auto;
+        background-color: white;
+        border: black 2px solid;
+        padding: 2;
+    }
+    
+    .card h2 {
+        text-align: center;
+        background-color: #818f8e;
+        padding: 0;
+        margin: 0;
+        border: 40px;
+        border: 40px;
+    }
+    
+    .card img {
+        max-width: 50%;
+        max-height: 100%;
+        border: 25px;
+        margin: 8px;
+        align-content: right;
+    }
+    
+    .card li {
+        padding: 1rem;
+        font: 'Times New Roman';
+    }
+    
+    .card div a {
+        border-radius: 2px black;
+        padding-right: 2;
+    }
+    .card a:link {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .card a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .card a:hover {
+        color: #1022e9;
+        cursor: grab;
+    }
+    
+    footer {
+        padding: 4rem 1rem 1rem 1rem;
+        text-align: center;
+        background-color: #818f8e;
+        color: white;
+    }
+    
+    .card img {
+            max-width: 50%;
+        }
+    
+    main {
+            display: grid;
+            grid-template-columns: 87.3% 1.5%;
+            background-color: none;
+        }
