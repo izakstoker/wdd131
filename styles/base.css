@@ -44,8 +44,15 @@
         margin-bottom: 1em;
     }
     
+    .p2 {
+        text-align: left;
+        text-wrap: wrap;
+        padding: 10px 10px 10px 10px;
+    }
     .p1 {
-        text-align: right;
+        text-align: left;
+        text-wrap: wrap;
+        padding: 10px 10px 10px 10px;
     }
 
     .card {
@@ -63,14 +70,6 @@
         margin: 0;
         border: 40px;
         border: 40px;
-    }
-    
-    .card img {
-        max-width: 50%;
-        max-height: 100%;
-        border: 25px;
-        margin: 8px;
-        align-content: right;
     }
     
     .card li {
