@@ -7,6 +7,10 @@ header {
     padding: auto;
 }
 
+h2 {
+    text-align: center;
+}
+
 h3 {
     text-align: right;
     float: right;
@@ -30,7 +34,7 @@ main {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    gap: 100px;
 }
 
 figure,
@@ -39,7 +43,7 @@ img {
     max-height: 250px;
     max-width: 250px;
     margin: 20px 20px 20px 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 figcaption { 
@@ -48,7 +52,7 @@ figcaption {
 }
 
 footer {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: auto;
     text-align: center;
     background-color: #281a54;
     color: white;

@@ -25,11 +25,6 @@ h3 {
     float: right;
 }
 
-nav .img {
-    width: 50px;
-    height: 50px;
-}
-
 nav a {
     text-align: right;
     color: white;
@@ -43,12 +38,13 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
+    display: flex;
+    padding: auto;
 }
 
 figure,
 img {
-    display: grid;
+    display: flex;
     max-height: 250px;
     max-width: 250px;
     margin: 20px 20px 20px 20px;
