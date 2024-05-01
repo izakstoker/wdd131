@@ -6,18 +6,23 @@ body {
 }
 
 header {
-    display: grid;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     background-color: #281a54;
     color: white;
-    padding: 20px;
+    width: 100%;
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+h1 {
+    padding-left: 20px;
+    text-align: left;
+    float: left;
+}
+
+h3 {
+    padding-right: 20px;
+    text-align: right;
+    float: right;
 }
 
 nav .img {
@@ -26,9 +31,11 @@ nav .img {
 }
 
 nav a {
+    text-align: right;
     color: white;
     text-decoration: none;
     padding: 5px 10px;
+    float: right;
 }
 
 nav a:hover {
@@ -46,7 +53,7 @@ img {
     max-width: 250px;
     margin: 20px 20px 20px 20px;
     text-align: center;
-    padding: auto;
+    justify-content: space-between;
 }
 
 figcaption {
@@ -54,7 +61,7 @@ figcaption {
 }
 
 footer {
-    padding: 4rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     text-align: center;
     background-color: #281a54;
     color: white;

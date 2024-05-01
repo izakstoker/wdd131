@@ -1,20 +1,28 @@
 header {
-    display: grid;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     background-color: #281a54;
     color: white;
+    width: 100%;
+    padding: auto;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
+h3 {
+    text-align: right;
+    float: right;
 }
 
-nav a {
-    margin: 0 20px;
+nav a{
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
+h1{
+    text-align: left;
+    float: left;
+}
 
 main {
     max-width: 1200px;
@@ -31,7 +39,7 @@ img {
     max-height: 250px;
     max-width: 250px;
     margin: 20px 20px 20px 20px;
-    padding: auto;
+    justify-content: space-between;
 }
 
 figcaption { 
@@ -40,7 +48,7 @@ figcaption {
 }
 
 footer {
-    padding: 4rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     text-align: center;
     background-color: #281a54;
     color: white;
