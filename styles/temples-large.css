@@ -8,7 +8,10 @@ header {
 }
 
 h2 {
-    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin: 1rem;
+    display: grid;
 }
 
 h3 {
@@ -17,6 +20,7 @@ h3 {
 }
 
 nav a{
+    margin: 0;
     text-align: right;
     color: white;
     text-decoration: none;
@@ -28,10 +32,17 @@ h1{
     float: left;
 }
 
-main {
-    max-width: 1200px;
+
+
+.label {
+    justify-content: center;
+    text-align: center;
+}
+
+.templeimgs {
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 100px;
