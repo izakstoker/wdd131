@@ -4,7 +4,7 @@ header {
     background-color: #281a54;
     color: white;
     width: 100%;
-    padding: auto;
+    padding: 5px;
 }
 
 h2 {
@@ -52,7 +52,7 @@ figcaption {
 }
 
 footer {
-    padding: auto;
+    padding: 10px;
     text-align: center;
     background-color: #281a54;
     color: white;
