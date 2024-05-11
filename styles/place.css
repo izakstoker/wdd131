@@ -71,6 +71,7 @@ footer {
     text-align: center;
     background-color: crimson;
     color: var(--footer-text-color);
+    text-decoration-color: white;
 }
 @media only screen and (max-width: 600px) {
     body {
