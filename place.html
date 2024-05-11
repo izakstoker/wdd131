@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="description" content="Country Page">
+    <meta name="author" content="Izak Stoker">
+    <link rel="stylesheet" type="text/css" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>United States</h1>
+        <div class="spacer"></div>
+    </header>
+    <main>
+        <div class="heroimg">
+            <picture>
+                <source srcset="images\flag.webp" width="1503px" height="1040px">
+                <img src="images\flag.webp" alt="US Flag">
+            </picture>
+            <div class="spacer"></div>
+        </div>
+        <div class="info">
+            <h2>Data</h2>
+            <div class="area">
+                <p class="label">Area:</p>
+                <p class="value">176,220 sq km</p>
+            </div>
+
+            <div class="population">
+                <p class="label">Population:</p>
+                <p class="value">333.3M</p>
+            </div>
+
+            <div class="capital">
+                <p class="label">Capital:</p>
+                <p class="value">Washington DC</p>
+            </div>
+
+            <div class="language">
+                <p class="label">Languages:</p>
+                <p class="value">English</p>
+            </div>
+
+            <div class="currency">
+                <p class="label">Currency:</p>
+                <p class="value">US Dollar</p>
+            </div>
+
+            <div class="time">
+                <p class="label">Time Zone:</p>
+                <p class="value">MDT</p>
+            </div>
+
+            <div class="callcode">
+                <p class="label">Calling Code:</p>
+                <p class="value">+1</p>
+            </div>
+
+            <div class="internet">
+                <p class="label">Internet TLD:</p>
+                <p class="value">.us</p>
+            </div>
+        </div>
+        <div class="weather">
+            <h2 class="weatherh2">Weather</h2>
+            <img class="weathericon" src="images\sun.svg" alt="Sunshine">
+            <div class="temperature">
+                <p class="label">Temperature:</p>
+                <p class="value">15&deg;C</p>
+            </div>
+            <div class="condition">
+                <p class="label">Conditions:</p>
+                <p class="value">Mostly cloudy with rain</p>
+            </div>
+
+            <div class="windspeed">
+                <p class="label">Wind:</p>
+                <p class="value">5 km/h</p>
+            </div>
+
+            <div class="windchill">
+                <p class="label">Wind Chill:</p>
+                <p class="value"><span id="windchill">14&deg;C</span></p>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">yyyy</span> | Izak Stoker | United States</p>
+        <p><span id="lastModified">mm/dd/yyyy hh:mm:ss</span></p>
+    </footer>
+</body>
+
+</html>
