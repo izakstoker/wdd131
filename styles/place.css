@@ -4,7 +4,7 @@
     --primary-color: white;
     --body-fonts: "Helvetica", "Arial", sans-serif;
     --line-height: 1.5;
-    --main-text-color: blue;
+    --main-text-color: white;
     --h1-text-color: white;
     background-color: white;
     text-decoration-color: white;
@@ -51,13 +51,20 @@ main {
 }
 
 .info {
-    display: block;
-    border-radius: 1px;
+    display: flex;
+    border: 2rem;
+    background-color: rgb(59, 85, 253);
+    padding: 0;
+    float: left;
+    text-wrap: wrap;
 }
 
 .weather {
-    display: block;
+    display: flex;
     text-align: right;
+    border: 40px;
+    background-color: rgb(59, 85, 253);
+    float: right;
 }
 
 footer {
