@@ -4,6 +4,7 @@
     --primary-color: white;
     --body-fonts: "Helvetica", "Arial", sans-serif;
     --line-height: 1.5;
+    background-color: white;
   }
 
   .weathericon::after {
