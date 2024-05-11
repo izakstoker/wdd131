@@ -4,7 +4,8 @@
     --primary-color: white;
     --body-fonts: "Helvetica", "Arial", sans-serif;
     --line-height: 1.5;
-    --main-text-color: white;
+    --main-text-color: blue;
+    --h1-text-color: white;
     background-color: white;
     text-decoration-color: white;
 }
@@ -17,6 +18,10 @@ head {
     padding: 0px 10px 0px 0px;
     display: grid;
     background-color: white;
+}
+
+h1 {
+    color: var(--h1-text-color);
 }
 
 header {
@@ -40,8 +45,14 @@ picture {
     height: 50px;
 }
 
+main {
+    color: var(--main-text-color);
+    border-radius: 1rem;
+}
+
 .info {
     display: block;
+    border-radius: 1px;
 }
 
 .weather {
