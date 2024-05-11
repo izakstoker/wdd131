@@ -18,6 +18,7 @@ head {
     padding: 0px 10px 0px 0px;
     display: grid;
     background-color: white;
+    padding: 0px 10px 0px 10px;
 }
 
 h1 {
@@ -38,6 +39,7 @@ header {
 .spacer {
     height: 5px;
     margin-top: -5px;
+    background-color: white;
 }
 
 picture {
@@ -51,20 +53,16 @@ main {
 }
 
 .info {
-    display: flex;
-    border: 2rem;
-    background-color: rgb(59, 85, 253);
-    padding: 0;
-    float: left;
-    text-wrap: wrap;
+    position: absolute;
+    top: 120px;
+    left: 20px;
 }
 
 .weather {
-    display: flex;
-    text-align: right;
+    position: absolute;
+    bottom: -300px;
+    right: 20px;
     border: 40px;
-    background-color: rgb(59, 85, 253);
-    float: right;
 }
 
 footer {
