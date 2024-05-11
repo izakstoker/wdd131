@@ -6,6 +6,7 @@
     --line-height: 1.5;
     --main-text-color: white;
     --h1-text-color: white;
+    --footer-text-color: white;
     background-color: white;
     text-decoration-color: white;
 }
@@ -69,6 +70,7 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: crimson;
+    color: var(--footer-text-color);
 }
 @media only screen and (max-width: 600px) {
     body {
