@@ -4,8 +4,10 @@
     --primary-color: white;
     --body-fonts: "Helvetica", "Arial", sans-serif;
     --line-height: 1.5;
+    --main-text-color: white;
     background-color: white;
-  }
+    text-decoration-color: white;
+}
 
   .weathericon::after {
     content: url("images/sun.svg");
