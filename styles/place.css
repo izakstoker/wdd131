@@ -7,7 +7,7 @@
   }
 
   .weathericon::after {
-    content: src="images/sun.svg";
+    content: url("images/sun.svg");
   }
 
 head {
