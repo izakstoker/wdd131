@@ -6,6 +6,10 @@
     --line-height: 1.5;
   }
 
+  .weathericon::after {
+    content: src="images/sun.svg";
+  }
+
 head {
     padding: 0px 10px 0px 0px;
     display: grid;
