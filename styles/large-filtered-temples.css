@@ -5,7 +5,7 @@ header {
     background-color: #281a54;
     color: white;
     padding: 10px;
-    width: 100%;
+    width: auto;
 }
 
 header h1 {
@@ -76,6 +76,7 @@ nav a:hover {
     gap: 100px;
     position: relative;
     top: 40px;
+    padding-right: 80px;
 }
 
 figure,
