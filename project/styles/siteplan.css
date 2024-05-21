@@ -1,0 +1,38 @@
+html {
+    background-color: #7393B3;
+}
+
+h1 {
+    float: left;
+    font-size: 30px;
+    font-family: 'roboto slab';
+    padding-right: 1rem;
+    color: #F5F5F5;
+}
+
+h2 {
+    float: left;
+    font-size: 30px;
+    font-family: 'roboto slab';
+    padding-right: 1rem;
+    color: #F5F5F5;
+}
+
+h3 {
+    text-align: left;
+    text-wrap: wrap;
+    text-decoration: italic;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    color: #F5F5F5;
+}
+
+div {
+    display: grid;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
