@@ -14,13 +14,17 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-fieldset {
+section {
     border: none;
 }
 
-legend {
+header, h1 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-align: center;
+    background-color: lightslategray;
+    padding-bottom: 1px;
+    padding-top: 1px;
 }
 
 label {
@@ -37,12 +41,13 @@ input, select, textarea {
 }
 
 input[type="submit"] {
-    width: auto;
-    background-color: #4CAF50;
+    background-color: lightslategray;
     color: white;
     border: none;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 20px;
+    width: 600px;
+    font-size: large;
 }
 
 input[type="submit"]:hover {
@@ -65,4 +70,10 @@ input[type="submit"]:hover {
 #rating label:hover,
 #rating label:hover ~ label {
     color: gold;
+}
+
+footer {
+    text-align: center;
+    background-color: lightslategray;
+    padding: 1rem 1rem 1rem
 }

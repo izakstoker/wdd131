@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Review Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/form.css">
 </head>
+
+<header>
+    <h1>Product Review Form</h1>
+</header>
+
 <body>
     <form id="review-form" action="review.html" method="get">
-        <fieldset>
-            <legend>Product Review Form</legend>
+        <section>
 
             <label for="product">Product Name:</label>
             <select id="product" name="product" required>
-                <option value="" disabled selected>Select a Product ...</option>
+                <option value="" disabled selected>Choose a Product ...</option>
             </select>
 
             <label for="rating">Overall Rating:</label>
@@ -35,26 +39,29 @@
 
             <label for="features">Useful Features:</label>
             <div id="features">
-                <input type="checkbox" id="feature1" name="features" value="Feature1">
-                <label for="feature1">Feature1</label>
-                <input type="checkbox" id="feature2" name="features" value="Feature2">
-                <label for="feature2">Feature2</label>
-                <input type="checkbox" id="feature3" name="features" value="Feature3">
-                <label for="feature3">Feature3</label>
+                <input type="checkbox" id="durability" name="feature" value="Feature1">
+                <label for="durability">Durability</label>
+                <input type="checkbox" id="ease of use" name="feature" value="Feature2">
+                <label for="ease of use">Ease of Use</label>
+                <input type="checkbox" id="performance" name="feature" value="Feature3">
+                <label for="performance">Performance</label>
+                <input type="checkbox" id="design" name="feature" value="Feature3">
+                <label for="design">Design</label>
             </div>
 
-            <label for="review">Written Review:</label>
+            <label for="review">Written Review (Optional):</label>
             <textarea id="review" name="review"></textarea>
 
-            <label for="username">User Name:</label>
+            <label for="username">Your Name (Optional):</label>
             <input type="text" id="username" name="username">
 
-            <input type="submit" value="Submit Review">
-        </fieldset>
+            <input type="submit" value="Post Review">
+        </section>
     </form>
     <footer>
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>&copy; <span id="currentyear"></span> | Izak Stoker | Idaho</p>
+        <p id="lastModified"></p>
+        <script defer src="scripts/getdates.js"></script>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
