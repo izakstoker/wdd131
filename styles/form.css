@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-main {
+#review-form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
