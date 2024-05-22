@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review Submitted</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/review.css">
 </head>
 <body>
-    <div class="confirmation">
-        <h1>Thank you for your review!</h1>
-        <p id="review-count"></p>
-        <a href="form.html">Submit another review</a>
-    </div>
+    <header>
+        <h1>Review Submitted</h1>
+    </header>
+
+    <section id="confirmation">
+        <h2>Thank you for your review!</h2>
+        <p>Your review has been submitted successfully.</p>
+        <p>You have submitted <span id="reviewCount"></span> reviews.</p>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>&copy; <span id="currentyear"></span> | Izak Stoker | Idaho</p>
+        <p id="lastModified"></p>
+        <script defer src="scripts/getdates.js"></script>
     </footer>
+
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const reviewCount = localStorage.getItem("reviewCount") || 0;
-            document.getElementById("review-count").textContent = `You have submitted ${reviewCount} reviews.`;
+        function incrementReviewCounter() {
+            let reviewCounter = localStorage.getItem('reviewCounter');
+            
+            if (reviewCounter === null) {
+                reviewCounter = 0;
+            } else {
+                reviewCounter = parseInt(reviewCounter);
+            }
+
+            reviewCounter += 1;
+            localStorage.setItem('reviewCounter', reviewCounter);
+            return reviewCounter;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const reviewCount = incrementReviewCounter();
+            document.getElementById('reviewCount').textContent = reviewCount;
         });
     </script>
 </body>
